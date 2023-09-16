@@ -24,8 +24,8 @@ public class Pedido implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private TipoEnvio TIPODEENVIO;
-    private Estado ESTADO;
+    private TipoEnvio tipoEnvio;
+    private Estado estado;
     @Temporal(TemporalType.DATE)
     private Date fecha;
 
