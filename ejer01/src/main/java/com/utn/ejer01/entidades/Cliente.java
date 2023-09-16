@@ -58,7 +58,7 @@ public class Cliente implements Serializable {
         System.out.println("Pedidos de " + nombre + " " + apellido + ":");
         for (Pedido pedido: pedidos) {
             System.out.println("Número: " + pedido.getId());
-            System.out.println("TipoDeEnvio: " + pedido.getTIPODEENVIO());
+            System.out.println("TipoDeEnvio: " + pedido.getTipoEnvio());
         }
 
     }
