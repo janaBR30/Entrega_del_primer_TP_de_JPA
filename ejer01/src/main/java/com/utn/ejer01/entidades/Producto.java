@@ -29,7 +29,7 @@ public class Producto implements Serializable {
 
     private Double precioCompra;
 
-    private Integer stockAtual;
+    private Integer stockActual;
     private Integer stockMinimo;
 
     private String unidadVendida;
