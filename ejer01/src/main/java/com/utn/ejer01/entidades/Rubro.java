@@ -26,4 +26,18 @@ public class Rubro implements Serializable {
     @JoinColumn(name = "rubro_id")
     @Builder.Default
     private List<Producto> productos = new ArrayList<>();
+
+    public void agregarProducto(Producto prod) {
+
+        productos.add(prod);
+    }
+
+    public void mostrarProductos() {
+        System.out.println("Denominación: " + denominacion);
+        System.out.println("Productos: ");
+        for (Producto producto : productos) {
+            System.out.println(producto.getDenominacion());
+        }
+
+    }
 }
