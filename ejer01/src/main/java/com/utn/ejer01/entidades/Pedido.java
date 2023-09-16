@@ -38,4 +38,9 @@ public class Pedido implements Serializable {
     @JoinColumn(name = "pedido_id")
     @Builder.Default
     private List<DetallePedido> detallePedidos = new ArrayList<>();
+
+     public void agregarDetallePedido(DetallePedido detallePedidoed){
+
+        detallePedidos.add(detallePedidoed);
+    }
 }
