@@ -23,6 +23,6 @@ public class Factura implements Serializable {
     @Temporal(TemporalType.DATE)
     private Date fecha;
     private Double descuento;
-    private FormaDePago FORMADEPAGO;
+    private FormaDePago formaDePago;
     private Double total;
 }
