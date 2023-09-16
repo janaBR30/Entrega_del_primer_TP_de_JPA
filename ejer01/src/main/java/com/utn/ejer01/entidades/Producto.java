@@ -32,7 +32,7 @@ public class Producto implements Serializable {
     private Integer stockActual;
     private Integer stockMin;
 
-    private String unidadVendida;
+    private String unidadMedida;
 
     private String receta;
 
