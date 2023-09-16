@@ -22,7 +22,7 @@ public class Producto implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private TipoProducto TP;
+    private TipoProducto tipo;
     private Integer tiempoEstimadoCocina;
     private String denominacion;
     private Double precioVenta;
